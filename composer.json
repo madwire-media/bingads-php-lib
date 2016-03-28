@@ -1,0 +1,32 @@
+{
+    "name": "madwire-media/bingads-php-lib",
+    "description": "Bing Ads API Version 9 and Version 10 Client Library for PHP.",
+    "keywords": ["bing", "bing-ads","api", "sdk"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Microsoft",
+            "homepage": "http://code.msdn.microsoft.com/PHP-Classes-for-Bing-Ads-c9762281"
+        },
+        {
+            "name": "Andrew Koprowski",
+            "email": "andrew@madwiremedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+    },    
+    "autoload": {
+        "classmap": [
+        	"src/v10/bingads/ClientProxy.php",
+        	"src/v10/bingads/v10",
+        	"src/v9/bingads"
+        ],
+        "exclude-from-classmap": ["src/v9/bingads/ClientProxy.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
