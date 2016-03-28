@@ -1,6 +1,6 @@
 {
     "name": "madwire-media/bingads-php-lib",
-    "description": "Bing Ads API Version 9 and Version 10 Client Library for PHP.",
+    "description": "Bing Ads API Version 9 and Version 10 Client Library for PHP with examples.",
     "require": {
         "php": ">=5.3.3"
     },
