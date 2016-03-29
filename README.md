@@ -12,7 +12,7 @@ This contains the PHP classes for version 9/10 of the Bing Ads web services. Cla
 
 ##Installation
 ```shell
-php composer.phar require madwire-media/bingads-php-lib:~1.0.*
+php composer.phar require madwire-media/bingads-php-lib:dev-master
 ```
 
 ##Usage
